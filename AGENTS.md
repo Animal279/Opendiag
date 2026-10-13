@@ -96,4 +96,4 @@
 - 未来实现后，运行版本单一来源为 `src/version.py`，包元数据同步；不得把“历史遗留 3.8.0”作为新包版本。
 - 不伪造原版发布历史、2000+ 测试通过记录或真实硬件验证结果。
 - 模拟验证、真机验证、界面对照和冻结包验证分别登记；缺少真实资产的功能不得标完成。
-- 提交说明用中文，采用 `feat/fix/refactor/docs/test/chore: 简述`。2026-10-12 已初始化本地 Git（`master`）并配置用户指定提交身份和 `Animal279/Opendiag` 远程，2026-10-13 已获用户授权按敏感排除范围整理并准备安全上传，最新远程状态见同步说明；分支和本地构建约定见 [docs/branching.md](docs/branching.md)，公司 PC 取码见 [docs/github-sync.md](docs/github-sync.md)。
+- 提交说明用中文，采用 `feat/fix/refactor/docs/test/chore: 简述`。2026-10-12 已初始化本地 Git（`master`）并配置用户指定提交身份和 `Animal279/Opendiag` 远程；2026-10-13 按用户确认范围完成整理及公开上传，敏感资料与旧 Git 历史仅留本机，最新状态见同步说明。分支和本地构建约定见 [docs/branching.md](docs/branching.md)，公司 PC 取码见 [docs/github-sync.md](docs/github-sync.md)。

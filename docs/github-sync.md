@@ -1,6 +1,8 @@
 # GitHub 同步与公司 PC
 
-2026-10-13 用户已授权排除敏感资料后上传其余文件，并要求先整理目录。目标仓库为 [Animal279/Opendiag](https://github.com/Animal279/Opendiag)，核对仍为公开状态。上传前旧本地历史已备份，采用安全新历史；范围见[资料与上传](publication.md)。首次上传结果在远程验证后登记。
+2026-10-13 已按用户要求先整理目录，再排除敏感资料，将 111 个公开文件上传到 [Animal279/Opendiag](https://github.com/Animal279/Opendiag)。仓库仍为公开状态，`main` 与 `master` 指向同一安全内容；旧本地历史仅保存在忽略的完整 bundle，没有进入公开历史。范围见[资料与上传](publication.md)。
+
+上传通过已连接的 GitHub 插件完成，不需要提供密码或把令牌写入本机文件。上传后从 GitHub 独立克隆 `master`：核对 111 个文件和安全提交历史，完整回归实际 **291 passed in 9.39s**，普通／演示 smoke 均退出码 0、六页、硬件未初始化，`pull --ff-only` 返回已是最新。本地 `master` 与远程同步；验证复用家里 PC 已安装的解释器和依赖，不代表公司网络、环境、ECU 或冻结包验收。
 
 ## 两台电脑
 
