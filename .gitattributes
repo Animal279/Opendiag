@@ -1,0 +1,21 @@
+# 文本默认采用 LF，保持不同 Windows 工作目录中的差异稳定。
+* text=auto eol=lf
+
+# Windows 脚本使用 CRLF，与 .editorconfig 一致。
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# 原始资料和二进制资源保留字节，不作换行转换。
+*.docx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.jfif binary
+*.ico binary
+*.pdf binary
+*.dll binary
+*.exe binary
+*.zip binary
+*.xlsx binary
+*.xls binary

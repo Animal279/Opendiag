@@ -1,0 +1,18 @@
+{
+  "_comment_example": "Synthetic loopback-only configuration. Not a real ECU or project. No simulator is selected implicitly.",
+  "transport": "doip",
+  "doip": {
+    "target_ip": "127.0.0.1",
+    "target_port": 13400,
+    "source_address": "0x0E80",
+    "target_address": "0x1110",
+    "functional_address": "0xE400",
+    "protocol_version": "0x02",
+    "routing_activation_type": 0,
+    "routing_oem_data": "FF FF FF FF",
+    "connect_timeout_ms": 5000,
+    "routing_timeout_ms": 5000,
+    "max_payload_length": 65536,
+    "tester_present_interval_ms": 2000
+  }
+}
