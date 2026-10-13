@@ -1,0 +1,58 @@
+# Python 本地环境与缓存
+/venv/
+/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/.pytest_cache/
+/.mypy_cache/
+/.ruff_cache/
+/.superpowers/
+.coverage
+.coverage.*
+/htmlcov/
+/coverage.xml
+
+# 本机敏感资料：原始文档、截图/日志、派生项目规格和上传前备份
+/local/
+/*.docx
+
+# 真实项目、用例、SDK 与安全 DLL 只在本机安装；公开虚构样例在 examples/
+/config/*
+!/config/README.md
+/testcase/
+/libs/
+/python312-32/
+
+# 运行数据和本地凭证（包括子目录）
+/logs/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa
+id_ed25519
+/config/app_state.json
+/config/last_connection.json
+
+# 构建产物；保留未来 build/build_release.py 等源码
+/dist/
+/build/OpenDiag_*/
+/build/OpenDiag_*.zip
+/build/setup_cx.py
+/build/build/
+/build/lib/
+/build/temp*/
+
+# 编辑器及操作系统临时文件
+/.idea/
+/.vscode/
+Thumbs.db
+Desktop.ini
+~$*.docx
+*.tmp
+
+# 真实资产不随公开源码分发；新增公开样例必须使用虚构数据并单独审查。
